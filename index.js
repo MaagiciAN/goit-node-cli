@@ -35,4 +35,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-invokeAction(options).then(console.log).catch(console.error);
+invokeAction(options);
